@@ -1,0 +1,100 @@
+
+h1{
+    font-weight: 900;
+}
+
+.header{
+ height: 40rem;
+ background-image: url(../img/superior.jpg);
+ background-size: cover;
+ background-position: center bottom;
+}
+
+
+.bg-light{
+    background-color: aliceblue !important;
+
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.log{
+    font-size: 2.2rem;
+    font-weight: 300;
+}
+
+.log span{
+ 
+    font-weight: 900;
+}
+
+
+@media(min-width:900px){
+    .nav-link::before{
+        content: '|';
+        margin-right: 1rem;
+    }
+    .nav-link:first-child::before{
+        display:none;
+    }
+}
+
+
+.cont::before{
+    background-image: url(../img/icono_telefono.png);
+    content: '';
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.somos{
+    min-height: 44rem;
+    background-image: url(../img/sobre.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+
+}
+
+@media(min-width:768px){
+    .somos{
+        min-height: 28rem;
+
+}
+}
+
+/*Modelos */
+
+.modelo {
+    background-repeat: no-repeat;
+    min-height: 40rem;
+    background-position:bottom left;
+}
+
+@media(min-width:768){
+    .modelo{
+        min-height: 30rem;
+    }
+}
+
+.basico{
+    background-image: url(../img/medio.jpg);
+    background-position: top right;
+  
+}
+
+.premier{
+    background-image: url(../img/premier.jpg);
+    background-position: top left;
+    background-size: 800px; 
+}
+
+.elite{
+    background-image: url(../img/elite.jpg);
+    background-position: top right;
+}
+
